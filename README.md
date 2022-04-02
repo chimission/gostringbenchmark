@@ -1,10 +1,10 @@
 # 目的
 
 本项目测试了4种go字符串拼接方法的性能
-1.+ 运算符
-2.string.Join
-3.bytes.Buffer
-4.bytes.Builder
+1.+ 运算符  
+2.string.Join  
+3.bytes.Buffer  
+4.bytes.Builder  
 
 # 运行
 go test -bench=. -benchmem
